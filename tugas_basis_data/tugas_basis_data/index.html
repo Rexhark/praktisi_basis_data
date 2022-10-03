@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myPHP</title>
+</head>
+<body>
+    <button onclick="loadDoc('http://localhost/tugas_basis_data/api/course.php', myFunction1);">Course</button>
+    <button onclick="loadDoc('http://localhost/tugas_basis_data/api/students.php', myFunction2);">Students</button>
+    <button onclick="loadDoc('http://localhost/tugas_basis_data/api/schedule.php', myFunction3);">Schedule</button>
+    <table id="mahasiswa" border="1px">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Full Name</th>
+                <th>Address</th>
+                <th>Major</th>
+            </tr>
+        </thead>
+        <tbody id="mahasiswa_data">
+
+        </tbody>
+    </table>
+    <script src="js/script.js"></script>
+</body>
+</html>
